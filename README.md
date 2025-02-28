@@ -1,8 +1,9 @@
 # Building a Virtual Private Cloud (VPC) with AWS
 ---
 ## Overview
-
 This guide will walk you through creating an Amazon Virtual Private Cloud (VPC) in AWS, a foundational step in building secure, isolated cloud environments for your applications. We'll cover subnets, internet gateways, and using the AWS CLI for automation.
+
+![image](https://github.com/user-attachments/assets/32d9151a-e5ba-41b0-9856-76fb3db923b7)
 
 ---
 
@@ -18,13 +19,13 @@ This guide will walk you through creating an Amazon Virtual Private Cloud (VPC) 
 
 ---
 
-## Step 1: What is Amazon VPC?
+## What is Amazon VPC?
 
 **Amazon VPC (Virtual Private Cloud)** is a service that enables you to create isolated networks for your AWS resources, such as EC2 instances and databases. These networks provide granular control over traffic, security, and connectivity.
 
 ---
 
-## Step 2: Setting Up Your VPC
+## Setting Up Your VPC
 
 1. **Define an IPv4 CIDR Block**  
    A CIDR block assigns a range of IP addresses to your VPC. For example, `10.0.0.0/16` gives a range of 65,536 addresses.
@@ -40,7 +41,7 @@ This guide will walk you through creating an Amazon Virtual Private Cloud (VPC) 
 
 ---
 
-## Step 3: Creating Subnets
+## Creating Subnets
 
 Subnets divide your VPC into smaller, more manageable segments. These can be public (connected to the internet) or private (internal-only).
 
@@ -59,7 +60,7 @@ Subnets divide your VPC into smaller, more manageable segments. These can be pub
 
 ---
 
-## Step 4: Attaching an Internet Gateway
+## Attaching an Internet Gateway
 
 An **Internet Gateway** connects your VPC to the internet, allowing external access to resources.
 
@@ -73,7 +74,7 @@ An **Internet Gateway** connects your VPC to the internet, allowing external acc
 
 ---
 
-## Step 5: Using the AWS CLI for Automation
+## Using the AWS CLI for Automation
 
 For faster and more efficient management, you can use the AWS CLI (Command Line Interface) to automate tasks.
 
